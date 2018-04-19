@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4C7F483A-DBD7-4AC7-94CB-44BC6955F20F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Standard_FlexForce</RootNamespace>
+    <AssemblyName>Standard_FlexForce</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Standard_FlexForce.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>COMBERA_POS_Intelligence.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v17.2" />
+    <Reference Include="DevExpress.Data.v17.2" />
+    <Reference Include="DevExpress.Images.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.2" />
+    <Reference Include="DevExpress.Sparkline.v17.2.Core" />
+    <Reference Include="DevExpress.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.2" />
+    <Reference Include="DevExpress.Printing.v17.2.Core" />
+    <Reference Include="DevExpress.XtraGrid.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\Admin\UserVerwaltung.Designer.vb">
+      <DependentUpon>UserVerwaltung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Admin\UserVerwaltung.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\BSSTXT.Designer.vb">
+      <DependentUpon>BSSTXT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\BSSTXT.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\BSSFotos.Designer.vb">
+      <DependentUpon>BSSFotos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\BSSFotos.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\BSSProdukte.Designer.vb">
+      <DependentUpon>BSSProdukte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\BSSProdukte.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\BSS.Designer.vb">
+      <DependentUpon>BSS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\BSS.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\Einzelbesuch.Designer.vb">
+      <DependentUpon>Einzelbesuch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\Einzelbesuch.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\Einzelbesuch_widget.Designer.vb">
+      <DependentUpon>Einzelbesuch_widget.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Besuchsdaten\Einzelbesuch_widget.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Dashboard_Markt\dashMarkt_Fotos.Designer.vb">
+      <DependentUpon>dashMarkt_Fotos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Dashboard_Markt\dashMarkt_Fotos.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Dashboard_Markt\dashMarkt_Fragen.Designer.vb">
+      <DependentUpon>dashMarkt_Fragen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Dashboard_Markt\dashMarkt_Fragen.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Dashboard_Markt\dashMarkt_HDB.Designer.vb">
+      <DependentUpon>dashMarkt_HDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Dashboard_Markt\dashMarkt_HDB.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Dashboard_Markt\dashMarkt_Produkte.Designer.vb">
+      <DependentUpon>dashMarkt_Produkte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Dashboard_Markt\dashMarkt_Produkte.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Stammdaten\Artikelstamm.designer.vb">
+      <DependentUpon>Artikelstamm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Stammdaten\Artikelstamm.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Stammdaten\Gebiete.designer.vb">
+      <DependentUpon>Gebiete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Stammdaten\Gebiete.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module\Stammdaten\Kundengruppen.designer.vb">
+      <DependentUpon>Kundengruppen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Stammdaten\Kundengruppen.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="test.Designer.vb">
+      <DependentUpon>test.vb</DependentUpon>
+    </Compile>
+    <Compile Include="test.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools.vb" />
+    <Compile Include="WaitForm1.Designer.vb">
+      <DependentUpon>WaitForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Admin\UserVerwaltung.resx">
+      <DependentUpon>UserVerwaltung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Besuchsdaten\BSSTXT.resx">
+      <DependentUpon>BSSTXT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Besuchsdaten\BSSFotos.resx">
+      <DependentUpon>BSSFotos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Besuchsdaten\BSSProdukte.resx">
+      <DependentUpon>BSSProdukte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Besuchsdaten\BSS.resx">
+      <DependentUpon>BSS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Besuchsdaten\Einzelbesuch.resx">
+      <DependentUpon>Einzelbesuch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Besuchsdaten\Einzelbesuch_widget.resx">
+      <DependentUpon>Einzelbesuch_widget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Dashboard_Markt\dashMarkt_Fotos.resx">
+      <DependentUpon>dashMarkt_Fotos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Dashboard_Markt\dashMarkt_Fragen.resx">
+      <DependentUpon>dashMarkt_Fragen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Dashboard_Markt\dashMarkt_HDB.resx">
+      <DependentUpon>dashMarkt_HDB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Dashboard_Markt\dashMarkt_Produkte.resx">
+      <DependentUpon>dashMarkt_Produkte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Stammdaten\Artikelstamm.resx">
+      <DependentUpon>Artikelstamm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Stammdaten\Gebiete.resx">
+      <DependentUpon>Gebiete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Stammdaten\Kundengruppen.resx">
+      <DependentUpon>Kundengruppen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="COMBERA_POS_Intelligence.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

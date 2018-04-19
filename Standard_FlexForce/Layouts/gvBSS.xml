@@ -1,0 +1,470 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="EditingMode">EditFormInplace</property>
+    <property name="Editable">false</property>
+  </property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="ShowAutoFilterRow">true</property>
+    <property name="ShowFooter">true</property>
+  </property>
+  <property name="FixedLineWidth">2</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="VertScrollVisibility">Always</property>
+  <property name="RowHeight">-1</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="ChildGridLevelName" />
+  <property name="VertScrollTipFieldName" />
+  <property name="PreviewFieldName" />
+  <property name="GroupPanelText" />
+  <property name="NewItemRowText" />
+  <property name="LevelIndent">-1</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="PreviewLineCount">-1</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="FocusRectStyle">CellFocus</property>
+  <property name="HorzScrollStep">0</property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="Columns" iskey="true" value="30">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Name">GridColumn1</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">BSSID</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">bssID</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Name">colbssID_temp</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">BSSID_temp</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">bssID_temp</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Name">GridColumn2</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">Debitor</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">debitoren_nummer</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Name">GridColumn3</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">Aktiopnsnr</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">aktionsnummer</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Name">GridColumn4</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">ComberaID</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x1combera_id</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="Name">GridColumn5</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">MA_ID</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">maID</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Name">GridColumn6</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">ADM_Name</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ADM_Name</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Name">GridColumn7</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">Besuchsdatum</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x2Besuchsdatum</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Name">colIMEI</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">IMEI</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">8</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="Name">colBesuch_erfasst_durch</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">Besuch_erfasst_durch</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">9</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="Name">colkundengruppe</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">kundengruppe</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">10</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="Name">colx3Kein_Gespraech</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">Kein_Gespraech</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x3Kein_Gespraech</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">11</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="Name">colx4gesprochen_mit</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">gesprochen_mit</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x4gesprochen_mit</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">12</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="Name">colx100Unterschrift</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">Unterschrift</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x100Unterschrift</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">13</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="Name">colx101Zeit_Unterschrift</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">Zeit_Unterschrift</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x101Zeit_Unterschrift</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">14</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="Name">colx102Besuchsinfo</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">Besuchsinfo</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x102Besuchsinfo</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">15</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="Name">colx103Neuanlage</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">Neuanlage</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x103Neuanlage</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">16</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="Name">colx104Totmeldung</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">Totmeldung</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x104Totmeldung</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">17</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="Name">colx105Tot_Grund</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Caption">Tot_Grund</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x105Tot_Grund</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">18</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="Name">colx200Datum_intern</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x200Datum_intern</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="Name">colx201Zeit_intern</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x201Zeit_intern</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="Name">colx300Datum_intern</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x300Datum_intern</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="Name">colx301Zeit_intern</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x301Zeit_intern</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item24" isnull="true" iskey="true">
+      <property name="Name">colexport_am</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">export_am</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">19</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item25" isnull="true" iskey="true">
+      <property name="Name">colexport_durch</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">export_durch</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">20</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item26" isnull="true" iskey="true">
+      <property name="Name">colVerarbeitungsstatus</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">Verarbeitungsstatus</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">21</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item27" isnull="true" iskey="true">
+      <property name="Name">colx900CreateDate</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x900CreateDate</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item28" isnull="true" iskey="true">
+      <property name="Name">colx901CreateUser</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x901CreateUser</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item29" isnull="true" iskey="true">
+      <property name="Name">colx902EditDate</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x902EditDate</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item30" isnull="true" iskey="true">
+      <property name="Name">colx903EditUser</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">x903EditUser</property>
+      <property name="ColumnEditName" />
+    </property>
+  </property>
+  <property name="ViewCaption" />
+  <property name="BorderStyle">Default</property>
+  <property name="SynchronizeClones">true</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="Name">gvBSS</property>
+  <property name="DetailHeight">350</property>
+  <property name="Tag" isnull="true" />
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="ActiveFilterString" />
+  <property name="FormatRules" iskey="true" value="0" />
+  <property name="FormatConditions" iskey="true" value="0" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>
